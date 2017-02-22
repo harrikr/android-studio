@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Hukum Bacaan Alif Lam"
+                android:id="@+id/a"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="23dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="9dp" />
+            <TextView
+                android:text="	Dalam ilmu tajwid dikenal hukum bacaan alif lam. Hukum bacaan alim lam menyatakan bahwa apabila huruf alim lam bertemu dengan huruf-huruf hijaiyah, maka cara membaca huruf alif lam tersebut terbagi atas dua macam, yaitu alif lam syamsiyah dan alif lam qamariyah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="1. Pengertian “Al” Syamsiyah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="“Al” Syamsiyah adalah “Al” atau alif lam mati yang bertemu dengan salah satu huruf syamsiyah dan dibacanya lebur/idghom (bunyi “al’ tidak dibaca). Hurufnya adalah :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:id="@+id/d"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="   ت ث د ذ ر ز س ش ص ض ط ظ ل ن"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Ciri-ciri hukum bacaan “Al” Syamsiyah:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/e"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="a. Dibacanya dileburkan/idghom"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:id="@+id/f"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="b. Ada tanda tasydid/syiddah ( ) di atas huruf yang terletak setelah alif lam mati => الـــّ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/g"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="Contoh:  وَالشَّمْسِ    الدِّيْنِ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:id="@+id/cthalif1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="2. Pengertian “Al” Qamariyah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#1e2e2d"
+
+                android:id="@+id/h"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="“Al” Qamariyah adalah “Al” atau alif lam mati yang bertemu dengan salah satu huruf qamariyah dan dibacanya jelas/izhar. Hurufnya adalah:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/i"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="ا ب ج ح خ ع غ ف ق ك م و ه ي"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/j"
+                android:text="Ciri-ciri hukum bacaan “Al” Qamariyah:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="a. Dibacanya jelas/izhar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/k"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="b. Ada tanda sukun ( ْ ) di atas huruf alif lam mati => الْ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/l"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:text="Contoh:   الْحَمْدُ     بِاْلإِيْمَانِ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp"
+                android:id="@+id/cthalif2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

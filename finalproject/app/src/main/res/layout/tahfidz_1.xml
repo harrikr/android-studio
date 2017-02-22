@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:text=""
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_height="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+
+
+            <Button
+                android:id="@+id/ashr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-'Ashr"
+                android:layout_row="13"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/naas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S An-Nas"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/takatsur"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S At-Takasur"
+                android:layout_row="14"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/falaq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Falaq"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/qariah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Qari'ah"
+                android:layout_row="15"
+                android:layout_column="0"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/ikhlas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Ikhlas"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/adiyat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Adiyat"
+                android:layout_row="16"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/lahab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Lahab"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/zalzalah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Zalzalah"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/nasr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S An-Nasr"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/bayyinah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Bayyinah"
+                android:layout_row="18"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/kafirun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Kafirun"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/qadr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Qadr"
+                android:layout_row="19"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/kautsar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Kautsar"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/alaq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Alaq"
+                android:layout_row="20"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/maun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Ma'un"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/tin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S At-Tin"
+                android:layout_row="21"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/quraisy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Quraisy"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/fil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Fil"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/duha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Ad-Duha"
+                android:layout_row="24"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:id="@+id/sharh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Ash-Sharh"
+                android:layout_row="23"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:id="@+id/humazah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Humazah"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Lail"
+                android:layout_row="26"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Asy Syams"
+                android:layout_row="27"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Balad"
+                android:layout_row="28"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Fajr"
+                android:layout_row="29"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-Ghasiyah"
+                android:layout_row="30"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Al-A'la"
+                android:layout_row="31"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S Ath Thaariq"
+                android:layout_row="32"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AL-BURUUJ"
+                android:layout_row="34"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AL-INSYIQAAQ"
+                android:layout_row="35"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AL MUTHAFFIFIN"
+                android:layout_row="36"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AT-TAKWIIR"
+                android:layout_row="37"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AL ABASA"
+                android:layout_row="38"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AN NAZI'AAT"
+                android:layout_row="39"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.S AN NABA"
+                android:layout_row="40"
+                android:layout_marginBottom="7dp"
+                android:layout_column="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:text=""
+                android:layout_row="13"
+                android:layout_column="0"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp" />
+        </GridLayout>
+
+    </ScrollView>
+</LinearLayout>

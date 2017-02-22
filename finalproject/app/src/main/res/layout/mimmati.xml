@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Hukum Bacaan Mim Mati"
+                android:id="@+id/a1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="23dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/a2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Ikhfa Syafawi  (إخفاء سفوى)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#009688"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/a3"
+                android:text="Apabila mim mati bertemu dengan ba (ب)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya harus dibunyikan samar-samar di bibir dan didengungkan"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/a4"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/a5"
+                android:text="Idgham Mimi  ( إدغام ميمى)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila mim mati bertemu dengan mim (مْ)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/a6"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya adalah seperti menyuarakan mim rangkap atau ditasyidkan dan wajib dibaca dengung. Idgham mimi disebut juga idgham mislain atau mutamasilain."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/a7"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a8"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Izhar Syafawi  (إظهار سفوى)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a9"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="50dp"
+                android:text="Apabila mim mati bertemu dengan salah satu huruf hijaiyyah selain huruf mim dan ba, maka cara membacanya dengan jelas di bibir dan mulut tertutup"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

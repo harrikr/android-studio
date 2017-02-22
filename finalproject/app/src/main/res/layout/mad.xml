@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c1"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Hukum Bacaan Mad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="23dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c2"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="1. Mad Thabi’i  (مَدْ طَبِيعِي)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada alif terletak sesudah fathah atau ya’ sukun sesudah kasrah atau wawu sesudah dhammah maka dihukumi mad thabi’i.  Mad artinya panjang, thabi’i artinya biasa."
+                android:id="@+id/c3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya harus sepanjang dua harakat atau disebut satu alif. Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c4"
+                android:textSize="20dp" />
+            <TextView
+                android:text="كتَا بٌ -  يَقُوْلُ -  سمِيْعٌ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/c5"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c6"
+                android:text="2. Mad Wajib Muttashil (مَدْوَاجِبْ مُتَّصِلْ)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada mad thabi’i bertemu dengan hamzah didalam satu kalimat atau kata."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c7"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya wajib panjang sepanjang 5 harakat atau dua setengah kali mad thabi’i  (dua setengah alif). Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c8"
+                android:textSize="20dp" />
+            <TextView
+                android:text="سَوَآءٌ -  جَآءَ -  جِيْءَ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/c9"
+                android:textColor="#009688"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c10"
+                android:text="3. Mad Jaiz Munfashil (مَدْجَائِزمُنْفَصِلْ)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada mad thabi’i bertemu dengan hamzah tetapi hamzah itu dilain kalimat. Jaiz artinya boleh. Munfashil artinya  terpisah . "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c11"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya boleh seperti mad wajib muttashil, dan boleh seperti mad thobi’i saja .Contoh  :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c12"
+                android:textSize="20dp" />
+            <TextView
+                android:text="وَﻻَأنْتُمْ     بِمَا أُنْزِلَ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#009688"
+                android:id="@+id/c13"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="4. Mad Lazim Mutsaqqal Kilmi  (مَدْﻻَزِمْ مُثَقَّلْ كِلْمِي) "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c14"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada mad thabi’i bertemu dengan tasydid di dalam satu perkataan, maka cara membacanya harus panjang selama 3 kali Mad Thabi’i atau 6 harakat. Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/c16"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="وَﻻَالضَّآلِّينَ     اَلصّاخَةُ   "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/c17"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="5. Mad Lazim Mukhaffaf Kilmi  (مَدْﻻَزِمْ مُخَفَّف  كِلْمِي)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c18"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada mad thobi’I bertemu dengan huruf mati (sukun), maka cara membacanya sepanjang 6 harakat . Contoh:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c19"
+                android:textSize="20dp" />
+            <TextView
+                android:text="آﻻَن"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c20"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="6. Mad Layyin (مَدْ لَين)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c21"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada wau sukun (  و   ) atau ya’ sukun (  ي  ) sedang huruf sebelumnya yaitu berharakat fathah, maka cara membacanya sekedar lunak dan lemas. Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/c22"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="رَيْبٌ خَوْفٌ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/c23"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/c24"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="7. Mad ‘Aridl Lissukun (مَدْ عارِضْ لِلسُّكوُنِ)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/c25"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada waqaf  atau tempat pemberhentian membaca sedang sebelum waqaf itu ada Mad Thobi’i atau Mad Lein, maka cara membacanya ada 3 macam :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c26"
+                android:text="a. Yang lebih utama  dibaca panjang seperti mad wajib muttashil  ( 6 harakat )."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/c27"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="b. Yang pertengahan dibaca empat harakat ya’ni du kali mad thobi’i."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="c. Yang pendek ya’ni boleh hanya dibaca seperti mad thobi’i biasa. Contoh  :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c28"
+                android:textSize="20dp" />
+            <TextView
+                android:text="بَصِيْرٌ      خَالِدُوْنَ     والنَّاسِ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/c29"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="8. Mad Shilah Qashirah (مَدْ صِلَة قَصِيْرَة) "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/c30"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada haa dhamir sedang sebelum haa tadi ada huruf hidup (berharakat), maka cara membacanya harus panjang seperti mad thobi’i. Contoh  :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c31"
+                android:textSize="20dp" />
+            <TextView
+                android:text="اِنَّهُ كَانَ     ﻻَشَرِيْك لَهُ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/c32"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="9. Mad Shilah Thawilah (مَدْ صِلَة طَََوِيْلَة)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c34"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada Mad Qashirah bertemu dengan hamzah, maka membacanya seperti Mad Jaiz Munfashil. Contoh : "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c35"
+                android:textSize="20dp" />
+            <TextView
+                android:text="عِنْدَهُ اِﻻَّبِاذْنِه     لَهُ اَخْلَدَهُ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c36"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="10. Mad ‘Iwadl  (مَدْ عِوَض)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:id="@+id/c37"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Apabila ada fathatain yang jatuh pada waqaf (pemberhentian) pada akhir kalimat, maka cara membacanya seperti mad thobi’i. Contoh  : "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/c38"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="سَميْعًا بَصيْرًا     عَلِِيْمًا حَكِيمًا"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c39"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="11. Mad Badal  (مَدْ بَدَلْ)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/c40"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yaitu apabila ada hamzah bertemu dengan Mad , maka cara bacanya seperti Mad Thobi’i. Badal artinya ganti. Karena yang sebenarnya huruf mad yang ada tadi asalnya hamzah yang jatuh sukun kemudian diganti menjadi ya atau alif atau wau . Contoh:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c41"
+                android:textSize="20dp" />
+            <TextView
+                android:text="أَأْدَمَِ آدَمَ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c42"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c43"
+                android:text="12. Mad Lazim Harfi Musyabba’ (مَدْ لازِمْ حَرْفِ مُشَبَّع)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yaitu apabila pada permulaan surat dari Al-Qur’an terdapat salah satu atau lebih Dari antara huruf yang delapan, yaitu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c44"
+                android:textSize="20dp" />
+            <TextView
+                android:text="ن  -  ق – ص – ع – س – ل – ك – م"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c45"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22dp" />
+            <TextView
+                android:text="membacanya seperti Mad Lazim  yaitu 6  harakat ."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c46"
+                android:textSize="20dp" />
+            <TextView
+                android:text="وَالقلَمآلمنيس"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c47"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/c48"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="13. Mad Lazim Harfi Mukhaffaf (مَدْ لازِم حَرفِ مُخَفَّف)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yaitu apabila ada permulaan surat dari Al-Qur’an ada terdapat salah satu atau lebih dari antara huruf yang lima yaitu: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c49"
+                android:textSize="20dp" />
+            <TextView
+                android:text="ح – ي – ط - ﻫ - ر "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c50"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/c51"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Cara bacanya seperti mad thobi’i  Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c52"
+                android:text="14. Mad Tamkien  (مَدْ تَمْكِيْن)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/c53"
+                android:text="Yaitu Apabila ada ya’ sukun yang didahului dengan ya’ yang bertasydid dan harakatnya kasrah. Contoh :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="النَبِيّيْنَ     حُييِّيْتُمْ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c54"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/c55"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="15. Mad Farq (مَدْ فَرْق)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/c56"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yaitu bertemunya dua hamzah yang satu hamzah istifham dan yang kedua hamzah washol pada lam alif ma’rifat, cara membacanya sepanjang 6 harakat. Contoh  :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:text="اﷲُخَيْرٌاَمّايُشْرِكُون"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/c57"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:textSize="25dp" />
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:text=""
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_height="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+
+
+            <Button
+                android:id="@+id/buttonaliflam"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Alif Lam"
+
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/buttonmad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mad"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/buttonmimmati"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mim Mati"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/buttonnunmati"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Nun Mati Atau Tanwin"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+            <Button
+                android:id="@+id/buttonqalqalah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qalqalah"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/buttonra"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="RA"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="15dp" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+</LinearLayout>

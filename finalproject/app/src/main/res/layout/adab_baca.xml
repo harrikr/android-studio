@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:id="@+id/jdladab"
+        android:gravity="center"
+        android:text="Adab dalam membaca Al-Qur&apos;an"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:id="@+id/isiadab"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+
+
+            android:text="Al-Qur'an adalah kalamullah yang suci, maka apabila hendak membaca seharusnya dalam keadaan berwudhu, bersikap tenang penuh sopan santun baik berdiri maupun duduk, menghadap kiblat sambil menundukkan kepala, tidak menyandar dan tidak duduk dengan sikap sombong, sebaiknya duduk sendirian seolah olah berhadapan dengan sang guru. jika engkau ingin menjadi golongan orang yang membaca Al-Qur'an dengan benar, maka jagalah adab-adab dalam membaca yang telah ditentukan dalam kitab dan sunnah, yaitu adab umum yang mencakup pembaca Al-Qur'an, orang yang mendengarkan bacaannya, serta orang yang mengajarkan dan mempelajarinya"/>
+
+    </ScrollView>
+</LinearLayout>

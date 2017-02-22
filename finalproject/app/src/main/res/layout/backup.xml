@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hkr.finalproject.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:text="Panduan Tahfidz"
+        android:id="@+id/awal"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/quran"/>
+
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttontahfidz"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonsambutan"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_height="50dp"
+        android:id="@+id/buttonhukumbaca"
+        android:layout_marginLeft="190dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonadabbaca"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"        />
+
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Hukum Bacaan Nun Mati/ Tanwin "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/b1"
+                android:textSize="23dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Idzhar(إظهار)"
+                android:id="@+id/b2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Izhar dibaca jelas atau terang. Apabila ada nun mati atau tanwin bertemu dengan salah satu huruf halqi ا ح خ ع غ ه "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b3"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :   مِنْهُمْ   اِنْ هُوَ    سَمِيْعٌ عَلِيْمٌ"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b30"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Idgham(إدغام)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:id="@+id/b4"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b5"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="A. Idgham Bighunnah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yakni memasukkan nun mati atau tanwin kedalam huruf sesudahnya dengan disertai (ber)dengung, jika bertemu dengan salah satu huruf yang empat, yaitu: ن م و ي "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b6"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b7"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :    منْ وَّرَاءِ هِمْ , هُدىً"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/b8"
+                android:text="B. Idgham Bilaghunnah"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Yakni memasukkan/meleburkan huruf nun mati atau tanwin kedalam huruf sesudahnya tanpa disertai dengung, jika bertemu dengan huruf lam atau ra (ر، ل) "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b9"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :    مِنْ رَبِهِمْ , مَنْ لَم"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b10"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Iqlab  (إقلاب)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:id="@+id/b11"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Iqlab artinya menukar atau mengganti apabila ada nun mati atau tanwin bertemu dengan huruf ب. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b12"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Cara membacanya huruf pertama yang berupa nun mati atau tanwin diganti/ditukar menjadi suara mim karena bertemu dengan huruf ب"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b13"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :    منْ بعْدِ , ينْبُتُ , سَمِيْعٌ بَصِيْرٌ"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/b14"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Ikhfa (إخفاء)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/b16"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Ikhfa haqiqi artinya menyamarkan atau tidak jelas. Apabila ada nun sukun atau tanwin bertemu dengan huruf yang 15 di bawah ini maka hukum bacaannya adalah Ikhfa’ haqiqi yang cara membacanya adalah samar-samar antara idghom dan idzhar."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b17"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Huruf Ikhfa’ :   ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/b18"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/b19"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :    مِنْ جُوْعٍ , مِنْكُم , أَ نْفُسَكُمْ"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+        </GridLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Hukum Bacaan Ra"
+                android:id="@+id/aaa"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="23dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="A. Ra dibaca Tafkhim artinya tebal, apabila keadaannya sbb:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/bbb"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="1. Ra berharkat fathah. Misal: اَلرَّسُوْلَ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/ccc"
+                android:textSize="20dp" />
+            <TextView
+                android:text="2. Ra berharkat dhummah. Misal: رُحَمَاءَِ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/ddd"
+                android:textSize="20dp" />
+            <TextView
+                android:text="3. Ra diwakafkan sebelumnya huruf yang berharkat fathah atau Dhummah. Misal: يَنْصُرُ- َاْلاَبْتَرُ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/eee"
+                android:textSize="20dp" />
+            <TextView
+                android:text="4. Ra diwakafkan sebelumnya huruf yang berharkat fathah atau Dhummah. Misal: تُرْجَعُوْنَ- يَرْحَمٌ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/fff"
+                android:textSize="20dp" />
+            <TextView
+                android:text="5. Ra sukun karena wakaf sebelumnya terdapat alif atau wau yang mati. Misal: اَلْغَفُوْرُ-اَلْجَبَّارُ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/ggg"
+                android:textSize="20dp" />
+            <TextView
+                android:text="6. Bila ra terletak sesudah Hamzah Washal. Misal:	اُرْكُضْ- اِرْحَمْنَا"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/hhh"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Catatan : Hamzah Washal adalah Hamzah yang apabila terletak dia diawal dibaca, tetapi kalau ada yang mendahuluinya dia tidak dibaca"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#fbc811"
+                android:id="@+id/iii"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="B. Ra dibaca tarqiq (tipis) apabila keadaannya sebagai berikut:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:id="@+id/jjj"
+                android:textStyle="bold" />
+            <TextView
+                android:text="1. Ra berharkat kasrah. Misal: رِحْلَةَ الشّتَاءِ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/kkk"
+                android:textSize="20dp" />
+            <TextView
+                android:text="2. Ra sukun sebelumnya huruf berharkat kasrah dan sesudahnya bukanlah huruf Ist’la’. Misal: فِرْعَوْنَ – مِرْيَةٌ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/lll"
+                android:textSize="20dp" />
+            <TextView
+                android:text="3. Ra sukun sebelumnya huruf yan berharkat kasrah dan sesudahnya huruf Ist’la’ dalam kata yang terpisah. Misal: فَصْبِرْصَبْرًا"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/mmm"
+                android:textSize="20dp" />
+            <TextView
+                android:text="4. Ra sukun karena wakaf, sebelumnya huruf berharkat kasrah atau ya sukun. Misal: نْتَصِرٌ – يَوْمَئِذِ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/nnn"
+                android:textSize="20dp" />
+            <TextView
+                android:text="5. Ra sukun karena wakaf sebelumnya bukan huruf huruf Isti’la’dan sebelumnya didahului oleh huruf yang berbaris kasrah. Misal: ذِيْ الذِّكْر"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/ooo"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Catatan : huruf Isti’lak ialah melafalkan huruf dengan mengangkat pangkal lidah kelangit-langit yang mengakibatkan hurfnya besar ق ص ض ظ ط غ خ"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ppp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#fbc811"
+                android:textSize="20dp"
+                android:layout_marginBottom="50dp"
+                android:textStyle="italic"/>
+        </GridLayout>
+
+    </ScrollView>
+</RelativeLayout>

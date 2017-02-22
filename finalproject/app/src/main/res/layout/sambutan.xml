@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:id="@+id/jdlsambutan"
+        android:gravity="center"
+        android:text="LEMBAGA TAHFIDZ DAN PENGKAJIAN AL-QUR'AN"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+
+    android:id="@+id/isisambutan"
+    android:textSize="23dp"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+
+
+    android:text="Sebaik-baiknya kalian adalah orang yang belajar Al-Qur'an dan mengajarkannya. Demikian arti hadist Nabi Muhammad SAW., sebagai dasar betapa mulia derajad orang yang belajar dan mengerjakan Al-Qur'an. Begitupun janji Allah terhadap orang yang ngupeni Al-Qur'an tak akan pernah sengsara dalam Kehidupannya, bahkan dimasukkan dalam ahli-Nya (keluarga) yang ada di dunia. Alhamdulillahi Rabbil' Alamin, dengan memuji dan rasa syukur yang tak terhingga kepada Allah SWT., atas segala karunia yang telah kira nikmati selama ini dan semoga kita selalu dalam lindungan, rahmat dan kasih sayang-Nya hingga akhir hayat amin ya rabbal'Alamin. Shalawat dan salam semoga selalu tercurahka kepada baginda Rasul Muhammad Saw., yang menjadi teladan sepanjang masa, semoga kita diakui umatnya serta mendapat syafaat beliau di dunia dan di akhirat. Buku panduan tahfidz sederhana ini dimaksudkan sebagai acuan dan standar dalam pembelajaran Ke-Al-Quranan bagi mahasiswa program agama maupun program umum Universitas Sains Al-Quran Jawa Tengah Di Wonosobo, dengan harapan semoga bermanfaat untuk kita semua. Universitas Sains Al-Quran (UNSIQ) Jawa Tengah di Wonosobo sebagai lembaga pendidikan yang menjadikan Al-Quran ikonnya, maka standar lulusan yang diharapkan adalah mampu membaca Al-Quran dengan tartil dan lancar. Melalui buku panduan ini semoga harapan tersebut menjadi kenyataan. Amin"/>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

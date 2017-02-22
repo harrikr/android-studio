@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hkr.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quran"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Login"
+            android:label="Login"/>
+        <activity android:name=".Developer"
+            android:label="{ _ / }"/>
+        <activity android:name=".Sambutan"
+            android:label="Sambutan"/>
+        <activity android:name=".AdabBaca"
+            android:label="Adab Baca"/>
+        <activity android:name=".HukumBaca"
+            android:label="Hukum Bacaan"/>
+        <activity android:name=".Tahfidz"
+            android:label="Tahfidzul Quran"/>
+        <activity android:name=".Tahfidz1"
+            android:label="Tahfidz 1 (Juz 30)"/>
+        <activity android:name=".Tahfidz2"
+            android:label="Tahfidz 2 (Ayat Profesi)"/>
+        <activity android:name=".Mulk"
+            android:label="Q.S AL-Mulk">
+
+        </activity>
+        <activity android:name=".Rahman"
+            android:label="Q.S AR-Rahman">
+
+        </activity>
+        <activity android:name=".Yasin"
+            android:label="Q.S Yasin">
+
+        </activity>
+        <activity android:name=".Waqiah"
+            android:label="Q.S AL-Waqiah">
+
+        </activity>
+
+        <activity android:name=".AlifLam"
+            android:label="Alif Lam">
+
+        </activity>
+        <activity android:name=".Mad"
+            android:label="Mad">
+
+        </activity>
+        <activity android:name=".MimMati"
+            android:label="Mim Mati">
+
+        </activity>
+        <activity android:name=".NunMatiTanwin"
+            android:label="Nun Mati atau Tanwin">
+
+        </activity>
+        <activity android:name=".Qalqalah"
+            android:label="Qalqalah">
+
+        </activity>
+        <activity android:name=".Ra"
+            android:label="Ra">
+
+        </activity>
+    </application>
+
+</manifest>

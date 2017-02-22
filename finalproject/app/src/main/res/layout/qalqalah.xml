@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:orientation="vertical">
+            <TextView
+                android:text="Qalqalah"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="23dp"
+                android:id="@+id/aa"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Menurut bahasa qalqalah artinya gerak. sedangkan menurut istilah qalqalah adalah bunyi huruf yang memantul bila ia mati atau dimatikan, atau suara membalik dengan bunyi rangkap. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/bb"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Huruf qalqalah : د ج ب ط ق "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/tambahanq"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="1. Qalqalah Kubra"
+                android:id="@+id/cc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Qalqalah kubra (besar) yaitu Huruf Qalqalah yang berbaris hidup, dimatikan karena waqaf. inilah Qalqalah yang paling utama, cara membacanya dikeraskan qalqalahnya"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/dd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cthqalq1"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Contoh   :    ْلُوا اْلأَلْبَابِ . زَوْجٍ بَهِيْجٍ "
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="2. Qalqalah Sugra"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/ee"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Qalqalah Sugra (kecil) yaitu Huruf Qalqalah yang berbaris mati, tetapi tidak waqaf padanya,caranya membacanya kurang dikeraskan Qalqalahnya."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:id="@+id/ff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/cthqalq2"
+                android:text="Contoh   :   يَقْطَعُوْنَ     إِلاَّ إِبْلِيْسَ    وَمَا أَدْرَاكَ"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#009688"
+                android:layout_marginBottom="50dp"
+                android:textSize="20dp" />
+        </GridLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
