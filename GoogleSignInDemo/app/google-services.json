@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "376921268741",
+    "project_id": "cohesive-scope-161802"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376921268741:android:e2b527a7b3e70e4f",
+        "android_client_info": {
+          "package_name": "com.kurniawanharry165gmail.googlesignindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376921268741-ol3jhdtrgb4uqch5h0nl29p6an4him83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kurniawanharry165gmail.googlesignindemo",
+            "certificate_hash": "9cfc889359b1324ba6b0bd08d000903805b55130"
+          }
+        },
+        {
+          "client_id": "376921268741-ecf81pk63956pj2h51lpe47eqhq1jqej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOHTFmCVXpkq10xlS41gmH4gf59rpmEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

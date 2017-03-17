@@ -1,0 +1,23 @@
+warning!! if you will build a project from 0
+
+firstly, you must register your app on 
+1.developers.google.com
+2.console.cloud.google.com
+3.copy your Token
+
+then, on your application
+*build.gradle(project)
+	adding module dependencies
+		-compile 'com.google.android.gms:play-services-auth:9.8.0'
+    	-compile 'com.github.bumptech.glide:glide:3.7.0'
+	above
+		apply plugin: 'com.google.gms.google-services'
+
+*build.gradle(project)
+if you got error message "Failed to resolve:com.github.bumptech.glide:glide:3.7.0" you must fix it.
+go to build.gradle on projects directory, commend out(//) jcenter() the add mavenCentral().
+
+repositories	{
+	//jcenter()
+	mavenCentral()
+}
