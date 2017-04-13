@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.maciek.app1.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/hangmanstart"
+        android:id="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="300dp" />
+
+    <Button
+        android:text="Pilih Tempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startSinglePlayerGame"
+        android:id="@+id/buttonTempat"
+        android:layout_alignBaseline="@+id/buttonMulti"
+        android:layout_alignBottom="@+id/buttonMulti"
+        android:layout_alignRight="@+id/buttonAbout"
+        android:layout_alignEnd="@+id/buttonAbout"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <Button
+        android:text="MULTIPLAYER"
+        android:onClick="startMultiPlayerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/buttonMulti"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp" />
+
+    <Button
+        android:text="SCORES"
+        android:onClick="openScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScores"
+        android:layout_alignBaseline="@+id/buttonAbout"
+        android:layout_alignBottom="@+id/buttonAbout"
+        android:layout_toRightOf="@+id/buttonAbout"
+        android:layout_toEndOf="@+id/buttonAbout"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonTempat"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="28dp"
+        android:text="ABOUT"
+        tools:clickable="true"
+        tools:contextClickable="false" />
+</RelativeLayout>

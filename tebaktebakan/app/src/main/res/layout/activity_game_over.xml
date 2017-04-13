@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:background="@color/putih"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maciek.app1.GameActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:id="@+id/layoutAddLetter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/addName"
+            android:hint="Tulis Jenengmu: "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColorLink="?attr/actionMenuTextColor"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textPoints"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/layoutAddLetter" />
+
+        <Button
+            android:text="Simpen"
+            android:layout_width="168dp"
+            android:layout_height="52dp"
+            android:id="@+id/button1"
+            android:textSize="18sp"
+            android:textColorLink="@android:color/black"
+            android:onClick="saveScore"
+            android:layout_weight="1"
+            android:layout_below="@+id/textPoints"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/layoutAddLetter" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/hangman7"
+        android:id="@+id/imageView3"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textViewPoints"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:text="Poine:"
+        android:layout_above="@+id/layoutAddLetter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp"
+        android:text="THE GAME IS OVER!"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_height="50dp"
+        android:id="@+id/textPoints"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_width="50dp"
+        android:layout_alignBaseline="@+id/textViewPoints"
+        android:layout_alignBottom="@+id/textViewPoints"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+</RelativeLayout>
