@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/vertical_margin"
+            android:layout_marginRight="@dimen/vertical_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Sistem Pakar"
+            android:textAlignment="center"
+            android:textColor="@color/gray_title_text"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Untuk Keperluan tugas akhir mata kuliah \nSistem Pakar"
+            android:textAlignment="center"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Dosen Mata Kuliah \n Yumarlin MZ, S.Kom., M.Pd."
+            android:textAlignment="center"
+            android:textColor="@color/gray_title_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Mahasiswa \n Sukenda 13330032 \nSururi Imron 13330020"
+            android:textAlignment="center"
+            android:textColor="@color/gray_title_text"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_gejala"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.sukenda.burisma.activity.GejalaActivity"
+    tools:showIn="@layout/activity_gejala">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Jenis-jenis gejala yang terjadi pada mesin pompa air"
+            android:textAlignment="center"
+            android:textColor="@color/gray_title_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="Untuk dapat mendeteksi kerusakan yang terjadi pada mesin pompa air, penulis membuatkan daftar gejala yang sering terjadi pada mesin pompa air, sehingga dapat memudahkan pengguna dalam mengetahui jenis-jenis gejala yang terjadi. \n\nBerikut 11 macam gejala yang sering terjadi pada mesin pompa air : "
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="- Suara yang keluar dari mesin keras atau bising"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Pompa air bergoyang kencang "
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Air baru keluar ketika pompa di pancing dengan air terlebih dahulu "
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Mesin pompa air mati total  "
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Tercium bau kabel terbakar di sekitar mesin"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Mesin tidak mendapatkan aliran listrik"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Putaran mesin pompa lemah atau ambat"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Air yang keluar dari pompa air sedikit"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Pompa tidak hidup secara otomatis setelah penampungan air kosong"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="- Debit pompa tidak sesuai spek atau ukuran "
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginBottom="30dp"
+            android:text="- Indikator amper bergoyang-goyang"
+            android:textAlignment="inherit"
+            android:textColor="@color/gray_title_text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
