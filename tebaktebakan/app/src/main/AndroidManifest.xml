@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.maciek.app1">
-
+    package="com.game.tebakan.sample">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="tebaktebakan"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.game.tebakan.sample.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameActivity" />
-        <activity android:name=".GameMultiActivity" />
-        <activity android:name=".GameOverActivity" />
-        <activity android:name=".MultiplayerActivity" />
-        <activity android:name=".TempatActivity"/>
-        <activity android:name=".About"/>
-        <activity android:name=".ScoresActivity"></activity>
+        <activity android:name="com.game.tebakan.sample.GameActivity" />
+        <activity android:name="com.game.tebakan.sample.GameMultiActivity" />
+        <activity android:name="com.game.tebakan.sample.GameOverActivity" />
+        <activity android:name="com.game.tebakan.sample.MultiplayerActivity" />
+        <activity android:name="com.game.tebakan.sample.TempatActivity"/>
+        <activity
+            android:theme="@style/Fullscreen"
+            android:name="com.game.tebakan.sample.About"/>
+        <activity android:name="com.game.tebakan.sample.ScoresActivity"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:background="@color/putih"
     android:layout_height="match_parent"
-    tools:context="com.example.maciek.app1.GameActivity">
+    tools:context="com.game.tebakan.sample.GameActivity">
 
     <TextView
         android:layout_width="match_parent"

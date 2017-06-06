@@ -1,8 +1,8 @@
-package com.example.maciek.app1;
+package com.game.tebakan.sample;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -11,10 +11,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class GameMultiActivity extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
 
     String mWord;
-
 
     int mFailCounter = 0;
     int mGuessedLetter = 0;
@@ -22,16 +21,12 @@ public class GameMultiActivity extends AppCompatActivity {
     int mPoints = 0;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_multi_game);
-        String wordSent = getIntent().getStringExtra("word");
-        Log.d("MYLOG", "sent word: "+ wordSent);
-        createTextViews(wordSent);
-        mWord = wordSent.toUpperCase();
-
+        setContentView(R.layout.activity_game);
+        setRandomWord();
+        createTextViews(mWord);
     }
 
 
@@ -67,27 +62,31 @@ public class GameMultiActivity extends AppCompatActivity {
 
         for (int i = 0; i < mWord.length(); i++){
 
+
             char charFromTheWord = mWord.charAt(i);
-            Log.d("MYLOG", "Cek: "+ charFromTheWord);
+            Log.d("MYLOG", "CEK!: "+ charFromTheWord);
 
             if(charFromTheWord == charIntroduced){
 
+
                 Log.d("MYLOG", "cocok");
+
                 showLettersAtIndex(i, charIntroduced);
 
                 letterGuessed = true;
-
                 mGuessedLetter++;
             }
 
             }
 
-        if(!letterGuessed){
+        if(letterGuessed == false){
             letterFailed(Character.toString(charIntroduced));
         }
         if(mGuessedLetter == mWord.length()){
-
-            finish();
+            mPoints++;
+            clearScreen();
+            setRandomWord();
+            createTextViews(mWord);
 
 
         }
@@ -95,14 +94,27 @@ public class GameMultiActivity extends AppCompatActivity {
     }
 
     /**
+     * generating random word from arrayWords
+     */
+    public void setRandomWord(){
+        String words = "TUTUPODOL CICAK CIBUK KRAN AIR KECOAK NYAMUK MRUTU AKU";
+        String[] arrayWords = words.split(" ");
+
+        Log.d("MYLOG", "Array "+ arrayWords.length);
+        int randomNumber = (int) (Math.random() * arrayWords.length);
+        String randomWord = arrayWords[randomNumber];
+
+        mWord = randomWord;
+
+    }
+    /**
      * dynamically creates layout for given word
      * @param word
      */
-
     public void createTextViews(String word){
 
         LinearLayout layoutLetters = (LinearLayout) findViewById(R.id.layoutLetters);
-        Log.d("MYLOG", "kirim kata: "+ word.length());
+        Log.d("MYLOG", "sent word: "+ word.length());
         for(int i = 0; i < word.length(); i++){
             TextView newTextView = (TextView) getLayoutInflater().inflate(R.layout.textview,null);
 
@@ -111,6 +123,20 @@ public class GameMultiActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * clear the screen and reset counters
+     */
+    public void clearScreen() {
+        TextView textView = (TextView) findViewById(R.id.failedLetterText);
+        textView.setText("");
+
+        mFailCounter = 0;
+        mGuessedLetter = 0;
+        LinearLayout layoutLetters = (LinearLayout) findViewById(R.id.layoutLetters);
+        layoutLetters.removeAllViewsInLayout();
+        ImageView imageView = (ImageView) findViewById(R.id.imageView3);
+        imageView.setImageResource(R.drawable.hangman1);
+    }
     /**
      * Displaying a letter guessed by the user
      */
@@ -123,6 +149,7 @@ public class GameMultiActivity extends AppCompatActivity {
         textView.setText(Character.toString(letterGuessed));
 
     }
+
     /**
      * display failed letters , change imageview, new intent when the game is over -> GameOverActivity
      * @param letterFailed
@@ -163,7 +190,7 @@ public class GameMultiActivity extends AppCompatActivity {
             Intent gameOverIntent = new Intent(this,GameOverActivity.class);
             gameOverIntent.putExtra("points_id", mPoints);
             startActivity(gameOverIntent);
-
+            finish();
 
         }
 

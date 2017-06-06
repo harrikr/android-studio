@@ -1,4 +1,4 @@
-package com.example.maciek.app1;
+package com.game.tebakan.sample;
 
 import android.content.Context;
 import android.content.SharedPreferences;
