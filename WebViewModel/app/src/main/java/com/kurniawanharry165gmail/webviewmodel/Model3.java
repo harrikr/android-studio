@@ -50,7 +50,7 @@ public class Model3 extends AppCompatActivity implements SwipeRefreshLayout.OnRe
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https:/google.com");
+            mWebView.loadUrl("https:/facebook.com");
         } else {
             Snackbar snackbar = Snackbar.make(coordinatorLayout, "Please check your internet connection.", Snackbar.LENGTH_LONG);
             snackbar.show();
